@@ -2,23 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Floating AI Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gemini Chat Assistant</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- Floating Bubble -->
-  <div id="chat-bubble">💬</div>
-
-  <!-- Chat Box -->
-  <div id="chat-box">
-    <div id="chat-header">Your AI Assistant</div>
-    <div id="chat-messages"></div>
-    <input type="text" id="user-input" placeholder="Type your question..." />
+  <div class="header">Assistant</div>
+  <div class="chat-container" id="chatBox"></div>
+  <div class="input-area">
+    <input type="text" id="userInput" placeholder="Type your message..."/>
     <button onclick="sendMessage()">Send</button>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
